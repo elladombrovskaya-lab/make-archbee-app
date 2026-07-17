@@ -34,5 +34,11 @@
       "mergeSuggestedChange",
       "discardSuggestedChange"
     ]
+  },
+  {
+    "label": "Webhooks",
+    "modules": [
+      "watchEvents"
+    ]
   }
 ]
