@@ -1,0 +1,22 @@
+[
+  {
+    "name": "docId",
+    "type": "text",
+    "label": "Document ID"
+  },
+  {
+    "name": "title",
+    "type": "text",
+    "label": "Title"
+  },
+  {
+    "name": "slug",
+    "type": "text",
+    "label": "Slug"
+  },
+  {
+    "name": "description",
+    "type": "text",
+    "label": "Description"
+  }
+]

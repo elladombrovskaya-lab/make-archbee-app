@@ -1,0 +1,16 @@
+{
+  "url": "/api/public-api/team/export",
+  "method": "GET",
+  "body": {
+    "teamId": "{{parameters.teamId}}",
+    "exportThisSpaceOnly": "{{parameters.exportThisSpaceOnly}}",
+    "exportAsLink": "{{parameters.exportAsLink}}"
+  },
+  "response": {
+    "type": "buffer",
+    "output": {
+      "data": "{{body}}",
+      "fileName": "archbee-export.zip"
+    }
+  }
+}

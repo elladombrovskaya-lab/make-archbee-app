@@ -1,0 +1,12 @@
+[
+  {
+    "name": "result",
+    "type": "text",
+    "label": "Result"
+  },
+  {
+    "name": "importedContent",
+    "type": "text",
+    "label": "Imported Content"
+  }
+]

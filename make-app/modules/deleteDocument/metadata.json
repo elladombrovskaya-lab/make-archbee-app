@@ -1,0 +1,6 @@
+{
+  "label": "Delete a Document",
+  "typeId": 4,
+  "description": "Delete a document from Archbee.",
+  "connection": "archbee-29shu1"
+}

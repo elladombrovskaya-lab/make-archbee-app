@@ -1,0 +1,6 @@
+{
+  "label": "Get Organization Display Rules",
+  "typeId": 4,
+  "description": "Retrieve the conditional display rules configured for an organization.",
+  "connection": "archbee-29shu1"
+}

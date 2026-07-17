@@ -1,0 +1,11 @@
+{
+  "url": "/api/public-api/doc",
+  "method": "GET",
+  "body": {
+    "docId": "{{parameters.docId}}",
+    "format": "{{parameters.format}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

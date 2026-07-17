@@ -1,0 +1,10 @@
+{
+  "url": "/api/public-api/suggest-change/merge",
+  "method": "POST",
+  "body": {
+    "docId": "{{parameters.docId}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

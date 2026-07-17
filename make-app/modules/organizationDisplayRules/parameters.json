@@ -1,0 +1,8 @@
+[
+  {
+    "name": "teamId",
+    "type": "text",
+    "label": "Organization (Team) ID",
+    "required": true
+  }
+]

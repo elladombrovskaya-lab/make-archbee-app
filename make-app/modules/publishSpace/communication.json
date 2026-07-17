@@ -1,0 +1,10 @@
+{
+  "url": "/api/public-api/space/publish",
+  "method": "POST",
+  "body": {
+    "environment": "{{parameters.environment}}"
+  },
+  "response": {
+    "output": "{{body.data}}"
+  }
+}

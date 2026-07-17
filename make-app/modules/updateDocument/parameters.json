@@ -1,0 +1,60 @@
+[
+  {
+    "name": "docId",
+    "type": "text",
+    "label": "Document ID",
+    "required": true
+  },
+  {
+    "name": "content",
+    "type": "text",
+    "label": "Content",
+    "required": true,
+    "multiline": true
+  },
+  {
+    "name": "format",
+    "type": "select",
+    "label": "Format",
+    "options": [
+      {
+        "label": "Markdown",
+        "value": "markdown"
+      },
+      {
+        "label": "HTML",
+        "value": "html"
+      },
+      {
+        "label": "JSON",
+        "value": "json"
+      }
+    ],
+    "default": "markdown"
+  },
+  {
+    "name": "title",
+    "type": "text",
+    "label": "Title"
+  },
+  {
+    "name": "description",
+    "type": "text",
+    "label": "Description"
+  },
+  {
+    "name": "slug",
+    "type": "text",
+    "label": "Slug"
+  },
+  {
+    "name": "hidden",
+    "type": "boolean",
+    "label": "Hidden"
+  },
+  {
+    "name": "sorting",
+    "type": "number",
+    "label": "Sort Order"
+  }
+]

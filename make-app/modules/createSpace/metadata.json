@@ -1,0 +1,6 @@
+{
+  "label": "Create a Space",
+  "typeId": 4,
+  "description": "Create a new DocSpace in Archbee.",
+  "connection": "archbee-29shu1"
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "displayRules",
+    "type": "array",
+    "label": "Display Rules",
+    "spec": [
+      {
+        "name": "id",
+        "type": "text",
+        "label": "ID"
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "label": "Title"
+      },
+      {
+        "name": "combinator",
+        "type": "text",
+        "label": "Combinator"
+      },
+      {
+        "name": "rules",
+        "type": "text",
+        "label": "Rules (raw)"
+      }
+    ]
+  }
+]

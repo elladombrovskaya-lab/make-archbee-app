@@ -1,0 +1,6 @@
+{
+  "label": "Publish a Space",
+  "typeId": 4,
+  "description": "Publish the current DocSpace to preview or production.",
+  "connection": "archbee-29shu1"
+}

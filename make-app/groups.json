@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Documents",
+    "modules": [
+      "getDocument",
+      "createDocument",
+      "updateDocument",
+      "deleteDocument",
+      "searchDocuments",
+      "importContent"
+    ]
+  },
+  {
+    "label": "Spaces",
+    "modules": [
+      "createSpace",
+      "updateSpace",
+      "publishSpace",
+      "cloneSpace",
+      "deleteSpace",
+      "createSpaceGroup",
+      "deleteSpaceGroup"
+    ]
+  },
+  {
+    "label": "Organization & Files",
+    "modules": [
+      "organizationExport",
+      "organizationDisplayRules",
+      "uploadFile",
+      "syncApiReference",
+      "infoApiReference",
+      "mergeSuggestedChange",
+      "discardSuggestedChange"
+    ]
+  }
+]

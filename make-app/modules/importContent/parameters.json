@@ -1,0 +1,28 @@
+[
+  {
+    "name": "fileName",
+    "type": "filename",
+    "label": "File Name",
+    "required": true,
+    "semantic": "file:name"
+  },
+  {
+    "name": "data",
+    "type": "buffer",
+    "label": "File Data",
+    "required": true,
+    "semantic": "file:data"
+  },
+  {
+    "name": "type",
+    "type": "select",
+    "label": "Content Type",
+    "options": [
+      {
+        "label": "Markdown",
+        "value": "markdown"
+      }
+    ],
+    "default": "markdown"
+  }
+]

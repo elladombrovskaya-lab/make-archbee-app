@@ -1,0 +1,17 @@
+[
+  {
+    "name": "publicAccessControlPart",
+    "type": "text",
+    "label": "Public Access Control"
+  },
+  {
+    "name": "hostnamePart",
+    "type": "text",
+    "label": "Hostname"
+  },
+  {
+    "name": "spaceLinks",
+    "type": "text",
+    "label": "Space Links"
+  }
+]

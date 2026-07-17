@@ -1,0 +1,8 @@
+[
+  {
+    "name": "docId",
+    "type": "text",
+    "label": "Document ID",
+    "required": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "url": "/api/public-api/space/delete",
+  "method": "DELETE",
+  "body": {
+    "targetSpaceId": "{{parameters.targetSpaceId}}"
+  },
+  "response": {
+    "output": "{{body.data}}"
+  }
+}

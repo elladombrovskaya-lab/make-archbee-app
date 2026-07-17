@@ -1,0 +1,10 @@
+{
+  "url": "/api/public-api/info-api-reference",
+  "method": "GET",
+  "body": {
+    "docTreeId": "{{parameters.docTreeId}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

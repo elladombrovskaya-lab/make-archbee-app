@@ -1,0 +1,10 @@
+{
+  "url": "/api/public-api/doc",
+  "method": "DELETE",
+  "body": {
+    "docId": "{{parameters.docId}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

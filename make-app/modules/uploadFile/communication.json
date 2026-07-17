@@ -1,0 +1,17 @@
+{
+  "url": "/api/public-api/upload/file",
+  "method": "POST",
+  "type": "multipart/form-data",
+  "body": {
+    "file": {
+      "value": "{{parameters.data}}",
+      "options": {
+        "filename": "{{parameters.fileName}}"
+      }
+    },
+    "isPublic": "{{parameters.isPublic}}"
+  },
+  "response": {
+    "output": "{{body.data}}"
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "name",
+    "type": "text",
+    "label": "Name",
+    "required": true
+  },
+  {
+    "name": "isLlmEnabled",
+    "type": "boolean",
+    "label": "AI Features Enabled"
+  },
+  {
+    "name": "isReviewSystemEnabled",
+    "type": "boolean",
+    "label": "Review System Enabled"
+  },
+  {
+    "name": "isBranchingSystemEnabled",
+    "type": "boolean",
+    "label": "Branching System Enabled"
+  }
+]

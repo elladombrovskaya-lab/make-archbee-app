@@ -1,0 +1,6 @@
+{
+  "label": "Clone a Space",
+  "typeId": 4,
+  "description": "Clone the current DocSpace in Archbee.",
+  "connection": "archbee-29shu1"
+}

@@ -1,0 +1,23 @@
+{
+  "url": "/api/public-api/sync-api-reference",
+  "method": "POST",
+  "type": "multipart/form-data",
+  "body": {
+    "file": {
+      "value": "{{parameters.data}}",
+      "options": {
+        "filename": "{{parameters.fileName}}"
+      }
+    },
+    "docTreeId": "{{parameters.docTreeId}}",
+    "type": "{{parameters.fileType}}",
+    "openApiTryIt": "{{parameters.openApiTryIt}}",
+    "openApiUseOwnBackend": "{{parameters.openApiUseOwnBackend}}",
+    "showDownloadOpenApiFile": "{{parameters.showDownloadOpenApiFile}}",
+    "shouldCreateSchemaCategory": "{{parameters.shouldCreateSchemaCategory}}",
+    "shouldCreateIntro": "{{parameters.shouldCreateIntro}}"
+  },
+  "response": {
+    "output": "{{body.data}}"
+  }
+}

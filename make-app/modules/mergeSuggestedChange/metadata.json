@@ -1,0 +1,6 @@
+{
+  "label": "Merge Suggested Change",
+  "typeId": 4,
+  "description": "Merge a suggested change document into its main document.",
+  "connection": "archbee-29shu1"
+}

@@ -1,0 +1,6 @@
+{
+  "label": "Delete a Space Group",
+  "typeId": 4,
+  "description": "Delete a Space Group in Archbee.",
+  "connection": "archbee-29shu1"
+}

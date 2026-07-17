@@ -1,0 +1,6 @@
+{
+  "label": "Update a Document",
+  "typeId": 4,
+  "description": "Update an existing document in Archbee.",
+  "connection": "archbee-29shu1"
+}

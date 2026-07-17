@@ -1,0 +1,17 @@
+{
+  "url": "/api/public-api/doc",
+  "method": "POST",
+  "body": {
+    "docId": "{{parameters.docId}}",
+    "content": "{{parameters.content}}",
+    "format": "{{parameters.format}}",
+    "title": "{{parameters.title}}",
+    "description": "{{parameters.description}}",
+    "slug": "{{parameters.slug}}",
+    "hidden": "{{parameters.hidden}}",
+    "sorting": "{{parameters.sorting}}"
+  },
+  "response": {
+    "output": "{{body.data}}"
+  }
+}
