@@ -1,0 +1,27 @@
+[
+  {
+    "url": "/api/public-api/doc",
+    "method": "GET",
+    "body": {
+      "docId": "{{parameters.docId}}",
+      "format": "markdown"
+    },
+    "response": {
+      "temp": {
+        "content": "{{body.content}}"
+      }
+    }
+  },
+  {
+    "url": "/api/public-api/doc",
+    "method": "POST",
+    "body": {
+      "docId": "{{parameters.docId}}",
+      "content": "{{applyTagValues(temp.content, parameters)}}",
+      "format": "markdown"
+    },
+    "response": {
+      "output": "{{body.data}}"
+    }
+  }
+]

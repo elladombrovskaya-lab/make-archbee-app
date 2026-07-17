@@ -5,6 +5,7 @@
       "getDocument",
       "createDocument",
       "updateDocument",
+      "updateDocumentTags",
       "deleteDocument",
       "searchDocuments",
       "importContent"
