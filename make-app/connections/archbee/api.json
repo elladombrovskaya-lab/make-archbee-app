@@ -1,5 +1,5 @@
 {
-  "url": "/api/public-api/docs/search",
+  "url": "https://api.archbee.com/api/public-api/docs/search",
   "method": "POST",
   "headers": {
     "Authorization": "Bearer {{base64(parameters.docSpaceId + '~' + parameters.apiKey)}}",
