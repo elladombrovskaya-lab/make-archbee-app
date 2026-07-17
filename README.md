@@ -52,4 +52,4 @@ A special module (`updateDocumentTags`) that finds `{{tag}}` placeholders in a d
 
 ## Status
 
-Built and configured in Make; not yet exercised against a live Archbee account. Endpoints where Archbee's own docs didn't expose full response schemas (`organizationDisplayRules`'s nested `rules` field, the binary shape of `organizationExport`) were modeled best-effort and should be verified against real API responses.
+Built and configured - testing in progress
