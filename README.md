@@ -69,3 +69,7 @@ Deployed to and live-tested against `archbee-shu4-czcwns`. Verifying `getDocumen
 Still unverified: `infoApiReference` and `organizationDisplayRules` show the same bare-`{{body}}`-output pattern as the modules above, but have no sibling GET endpoint to cross-check against — flagged for live testing rather than guessed.
 
 Custom IML functions (`extractTags`, `applyTagValues`) are blocked account-wide with "Access denied" — confirmed across multiple apps and both MCP and the VS Code extension, so it's an account/org-level restriction pending Make support enabling it. `updateDocumentTags` and `documentTagFields` exist as empty stubs on the live app until then.
+
+## Intellectual Property
+
+This repository and the Archbee custom app it documents are the private, proprietary intellectual property of Aymeric Lecomte. All rights reserved — no license is granted for reuse, redistribution, or modification without express permission.
