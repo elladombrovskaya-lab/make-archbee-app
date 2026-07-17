@@ -10,7 +10,8 @@
     "type": "text",
     "label": "Content",
     "required": true,
-    "multiline": true
+    "multiline": true,
+    "help": "When Format is set to JSON, the content must follow Archbee's document content JSON structure — see Archbee's API documentation center (https://docs.archbee.com/) for how to build it."
   },
   {
     "name": "format",
