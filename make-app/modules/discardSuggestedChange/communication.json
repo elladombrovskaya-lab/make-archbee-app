@@ -5,6 +5,6 @@
     "docId": "{{parameters.docId}}"
   },
   "response": {
-    "output": "{{body}}"
+    "output": "{{body.data}}"
   }
 }

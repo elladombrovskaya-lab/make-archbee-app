@@ -12,6 +12,6 @@
     "type": "{{parameters.type}}"
   },
   "response": {
-    "output": "{{body}}"
+    "output": "{{body.data}}"
   }
 }
