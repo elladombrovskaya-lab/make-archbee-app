@@ -2,5 +2,5 @@
   "label": "Update Tags in a Document",
   "typeId": 4,
   "description": "Replace {{tag}} placeholders found in a document's content. Only tags you provide a value for are changed; fields left blank are not touched.",
-  "connection": "archbee-29shu2-8bgd1w"
+  "connection": "archbee-shu4-czcwns"
 }
