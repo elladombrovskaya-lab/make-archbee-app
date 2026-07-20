@@ -72,4 +72,4 @@ Custom IML functions (`extractTags`, `applyTagValues`) could not be tested.
 
 ## Intellectual Property
 
-This repository and the Archbee custom app it documents are the private, proprietary intellectual property of Aymeric Lecomte. All rights reserved — no license is granted for reuse, redistribution, or modification without express permission.
+This repository and the Archbee custom app it documents are the private, proprietary intellectual property of Archbee. All rights reserved — no license is granted for reuse, redistribution, or modification without express permission.
