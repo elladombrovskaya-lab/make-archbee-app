@@ -1,0 +1,17 @@
+{
+    "baseUrl": "https://api.archbee.com",
+    "headers": {
+        "Authorization": "Bearer {{base64(connection.docSpaceId + '~' + connection.apiKey)}}",
+        "Accept": "application/json"
+    },
+    "response": {
+        "error": {
+            "message": "[{{statusCode}}] {{if(length(body.messages) > 0, join(body.messages, ', '), 'Unexpected error occurred while calling the Archbee API.')}}"
+        }
+    },
+    "log": {
+        "sanitize": [
+            "request.headers.authorization"
+        ]
+    }
+}
