@@ -1,0 +1,8 @@
+[
+    {
+        "name": "spaceGroupId",
+        "type": "text",
+        "label": "Space Group ID",
+        "required": true
+    }
+]

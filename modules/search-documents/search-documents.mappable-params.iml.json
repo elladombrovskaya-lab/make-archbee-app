@@ -1,0 +1,38 @@
+[
+    {
+        "name": "query",
+        "type": "text",
+        "label": "Search Query",
+        "required": true
+    },
+    {
+        "name": "searchOnlyTitle",
+        "type": "boolean",
+        "label": "Search Only Title"
+    },
+    {
+        "name": "type",
+        "type": "select",
+        "label": "Search Type",
+        "options": [
+            {
+                "label": "Keyword",
+                "value": "words"
+            },
+            {
+                "label": "AI Chat",
+                "value": "ai-chat"
+            },
+            {
+                "label": "AI Retrieval",
+                "value": "ai-retrieval"
+            }
+        ],
+        "default": "words"
+    },
+    {
+        "name": "parentDocId",
+        "type": "text",
+        "label": "Parent Document ID"
+    }
+]

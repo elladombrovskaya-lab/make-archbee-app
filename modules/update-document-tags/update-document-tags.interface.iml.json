@@ -1,0 +1,12 @@
+[
+    {
+        "name": "docId",
+        "type": "text",
+        "label": "Document ID"
+    },
+    {
+        "name": "newRecord",
+        "type": "boolean",
+        "label": "New Record"
+    }
+]

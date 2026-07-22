@@ -1,0 +1,7 @@
+[
+    {
+        "name": "targetSpaceGroupId",
+        "type": "text",
+        "label": "Target Space Group ID"
+    }
+]

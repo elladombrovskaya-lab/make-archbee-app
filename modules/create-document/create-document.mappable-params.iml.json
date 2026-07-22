@@ -1,0 +1,60 @@
+[
+    {
+        "name": "content",
+        "type": "text",
+        "label": "Content",
+        "required": true,
+        "multiline": true,
+        "help": "When Format is set to JSON, the content must follow Archbee's document content JSON structure — see Archbee's API documentation center (https://docs.archbee.com/) for how to build it."
+    },
+    {
+        "name": "format",
+        "type": "select",
+        "label": "Format",
+        "options": [
+            {
+                "label": "Markdown",
+                "value": "markdown"
+            },
+            {
+                "label": "HTML",
+                "value": "html"
+            },
+            {
+                "label": "JSON",
+                "value": "json"
+            }
+        ],
+        "default": "markdown"
+    },
+    {
+        "name": "title",
+        "type": "text",
+        "label": "Title"
+    },
+    {
+        "name": "description",
+        "type": "text",
+        "label": "Description"
+    },
+    {
+        "name": "parentDocId",
+        "type": "text",
+        "label": "Parent Document ID"
+    },
+    {
+        "name": "slug",
+        "type": "text",
+        "label": "Slug"
+    },
+    {
+        "name": "hidden",
+        "type": "boolean",
+        "label": "Hidden"
+    },
+    {
+        "name": "sorting",
+        "type": "number",
+        "label": "Sort Order"
+    }
+]

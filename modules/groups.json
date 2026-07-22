@@ -1,6 +1,29 @@
 [
 	{
 		"label": "Other",
-		"modules": []
+		"modules": [
+			"getDocument",
+			"createDocument",
+			"deleteDocument",
+			"updateDocument",
+			"updateDocumentTags",
+			"searchDocuments",
+			"createSpace",
+			"updateSpace",
+			"deleteSpace",
+			"cloneSpace",
+			"publishSpace",
+			"createSpaceGroup",
+			"deleteSpaceGroup",
+			"importContent",
+			"uploadFile",
+			"mergeSuggestedChanges",
+			"discardSuggestedChanges",
+			"organizationDisplayRules",
+			"organizationExport",
+			"infoApiReference",
+			"syncApiReference",
+			"watchEvents"
+		]
 	}
 ]

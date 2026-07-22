@@ -1,0 +1,8 @@
+[
+    {
+        "name": "docId",
+        "type": "text",
+        "label": "Suggestion Document ID (starts with SUGGEST-)",
+        "required": true
+    }
+]

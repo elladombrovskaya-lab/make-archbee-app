@@ -1,0 +1,8 @@
+[
+    {
+        "name": "docTreeId",
+        "type": "text",
+        "label": "Doc Tree ID",
+        "required": true
+    }
+]

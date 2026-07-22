@@ -1,0 +1,17 @@
+{
+    "url": "/api/public-api/doc",
+    "method": "GET",
+    "response": {
+        "iterate": "{{extractTags(body.content)}}",
+        "output": {
+            "name": "{{item}}",
+            "label": "{{item}}",
+            "type": "text",
+            "required": false
+        }
+    },
+    "qs": {
+        "docId": "{{parameters.docId}}",
+        "format": "markdown"
+    }
+}

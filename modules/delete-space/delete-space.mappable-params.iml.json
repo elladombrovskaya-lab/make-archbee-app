@@ -1,0 +1,8 @@
+[
+    {
+        "name": "targetSpaceId",
+        "type": "text",
+        "label": "Target Space ID",
+        "required": true
+    }
+]

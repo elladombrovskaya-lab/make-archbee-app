@@ -1,0 +1,10 @@
+{
+    "displayRules": [
+        {
+            "id": "rule1",
+            "title": "Example rule",
+            "combinator": "and",
+            "rules": "[]"
+        }
+    ]
+}

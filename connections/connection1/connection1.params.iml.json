@@ -1,0 +1,16 @@
+[
+  {
+    "name": "docSpaceId",
+    "type": "text",
+    "label": "Doc Space ID",
+    "required": true,
+    "help": "The ID of your Archbee Doc Space (visible in the space URL or Settings)."
+  },
+  {
+    "name": "apiKey",
+    "type": "password",
+    "label": "API Key",
+    "required": true,
+    "help": "Generate an API key in Archbee under Organization Settings > API Access."
+  }
+]

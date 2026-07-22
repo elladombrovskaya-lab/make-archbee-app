@@ -1,0 +1,14 @@
+{
+    "url": "/api/public-api/doc",
+    "method": "GET",
+    "response": {
+        "output": {
+            "content": "{{body}}",
+            "format": "{{parameters.format}}"
+        }
+    },
+    "qs": {
+        "docId": "{{parameters.docId}}",
+        "format": "{{parameters.format}}"
+    }
+}

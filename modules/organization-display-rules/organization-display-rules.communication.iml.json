@@ -1,0 +1,10 @@
+{
+    "url": "/api/public-api/team/display-rules",
+    "method": "GET",
+    "response": {
+        "output": "{{body}}"
+    },
+    "qs": {
+        "teamId": "{{parameters.teamId}}"
+    }
+}

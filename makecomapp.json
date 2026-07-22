@@ -7,11 +7,397 @@
         "groups": "modules/groups.json"
     },
     "components": {
-        "connection": {},
-        "module": {},
+        "connection": {
+            "connection1": {
+                "label": "archbee",
+                "connectionType": "basic",
+                "codeFiles": {
+                    "communication": "connections/connection1/connection1.communication.iml.json",
+                    "params": "connections/connection1/connection1.params.iml.json",
+                    "common": null
+                }
+            }
+        },
+        "module": {
+            "cloneSpace": {
+                "label": "Clone a Space",
+                "description": "Clone the current DocSpace in Archbee.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/clone-space/clone-space.communication.iml.json",
+                    "staticParams": "modules/clone-space/clone-space.static-params.iml.json",
+                    "mappableParams": "modules/clone-space/clone-space.mappable-params.iml.json",
+                    "interface": "modules/clone-space/clone-space.interface.iml.json",
+                    "samples": "modules/clone-space/clone-space.samples.iml.json",
+                    "scope": "modules/clone-space/clone-space.scope.iml.json"
+                }
+            },
+            "createDocument": {
+                "label": "Create a Document",
+                "description": "Create a new document in Archbee.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/create-document/create-document.communication.iml.json",
+                    "staticParams": "modules/create-document/create-document.static-params.iml.json",
+                    "mappableParams": "modules/create-document/create-document.mappable-params.iml.json",
+                    "interface": "modules/create-document/create-document.interface.iml.json",
+                    "samples": "modules/create-document/create-document.samples.iml.json",
+                    "scope": "modules/create-document/create-document.scope.iml.json"
+                }
+            },
+            "createSpace": {
+                "label": "Create a Space",
+                "description": "Create a new DocSpace in Archbee.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/create-space/create-space.communication.iml.json",
+                    "staticParams": "modules/create-space/create-space.static-params.iml.json",
+                    "mappableParams": "modules/create-space/create-space.mappable-params.iml.json",
+                    "interface": "modules/create-space/create-space.interface.iml.json",
+                    "samples": "modules/create-space/create-space.samples.iml.json",
+                    "scope": "modules/create-space/create-space.scope.iml.json"
+                }
+            },
+            "createSpaceGroup": {
+                "label": "Create a Space Group",
+                "description": "Create a new Space Group in Archbee.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/create-space-group/create-space-group.communication.iml.json",
+                    "staticParams": "modules/create-space-group/create-space-group.static-params.iml.json",
+                    "mappableParams": "modules/create-space-group/create-space-group.mappable-params.iml.json",
+                    "interface": "modules/create-space-group/create-space-group.interface.iml.json",
+                    "samples": "modules/create-space-group/create-space-group.samples.iml.json",
+                    "scope": "modules/create-space-group/create-space-group.scope.iml.json"
+                }
+            },
+            "deleteDocument": {
+                "label": "Delete a Document",
+                "description": "Delete a document from Archbee.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/delete-document/delete-document.communication.iml.json",
+                    "staticParams": "modules/delete-document/delete-document.static-params.iml.json",
+                    "mappableParams": "modules/delete-document/delete-document.mappable-params.iml.json",
+                    "interface": "modules/delete-document/delete-document.interface.iml.json",
+                    "samples": "modules/delete-document/delete-document.samples.iml.json",
+                    "scope": "modules/delete-document/delete-document.scope.iml.json"
+                }
+            },
+            "deleteSpace": {
+                "label": "Delete a Space",
+                "description": "Delete a DocSpace in Archbee.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/delete-space/delete-space.communication.iml.json",
+                    "staticParams": "modules/delete-space/delete-space.static-params.iml.json",
+                    "mappableParams": "modules/delete-space/delete-space.mappable-params.iml.json",
+                    "interface": "modules/delete-space/delete-space.interface.iml.json",
+                    "samples": "modules/delete-space/delete-space.samples.iml.json",
+                    "scope": "modules/delete-space/delete-space.scope.iml.json"
+                }
+            },
+            "deleteSpaceGroup": {
+                "label": "Delete a Space Group",
+                "description": "Delete a Space Group in Archbee.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/delete-space-group/delete-space-group.communication.iml.json",
+                    "staticParams": "modules/delete-space-group/delete-space-group.static-params.iml.json",
+                    "mappableParams": "modules/delete-space-group/delete-space-group.mappable-params.iml.json",
+                    "interface": "modules/delete-space-group/delete-space-group.interface.iml.json",
+                    "samples": "modules/delete-space-group/delete-space-group.samples.iml.json",
+                    "scope": "modules/delete-space-group/delete-space-group.scope.iml.json"
+                }
+            },
+            "discardSuggestedChanges": {
+                "label": "Discard Suggested Changes",
+                "description": "Discard a suggested change document.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/discard-suggested-changes/discard-suggested-changes.communication.iml.json",
+                    "staticParams": "modules/discard-suggested-changes/discard-suggested-changes.static-params.iml.json",
+                    "mappableParams": "modules/discard-suggested-changes/discard-suggested-changes.mappable-params.iml.json",
+                    "interface": "modules/discard-suggested-changes/discard-suggested-changes.interface.iml.json",
+                    "samples": "modules/discard-suggested-changes/discard-suggested-changes.samples.iml.json",
+                    "scope": "modules/discard-suggested-changes/discard-suggested-changes.scope.iml.json"
+                }
+            },
+            "getDocument": {
+                "label": "Get a Document",
+                "description": "Retrieve a document by its ID.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-document/get-document.communication.iml.json",
+                    "staticParams": "modules/get-document/get-document.static-params.iml.json",
+                    "mappableParams": "modules/get-document/get-document.mappable-params.iml.json",
+                    "interface": "modules/get-document/get-document.interface.iml.json",
+                    "samples": "modules/get-document/get-document.samples.iml.json",
+                    "scope": "modules/get-document/get-document.scope.iml.json"
+                }
+            },
+            "importContent": {
+                "label": "Import Content",
+                "description": "Import a markdown file as a new document in Archbee.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/import-content/import-content.communication.iml.json",
+                    "staticParams": "modules/import-content/import-content.static-params.iml.json",
+                    "mappableParams": "modules/import-content/import-content.mappable-params.iml.json",
+                    "interface": "modules/import-content/import-content.interface.iml.json",
+                    "samples": "modules/import-content/import-content.samples.iml.json",
+                    "scope": "modules/import-content/import-content.scope.iml.json"
+                }
+            },
+            "infoApiReference": {
+                "label": "Get Open API Document Info",
+                "description": "Get info about a previously imported OpenAPI document tree.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/info-api-reference/info-api-reference.communication.iml.json",
+                    "staticParams": "modules/info-api-reference/info-api-reference.static-params.iml.json",
+                    "mappableParams": "modules/info-api-reference/info-api-reference.mappable-params.iml.json",
+                    "interface": "modules/info-api-reference/info-api-reference.interface.iml.json",
+                    "samples": "modules/info-api-reference/info-api-reference.samples.iml.json",
+                    "scope": "modules/info-api-reference/info-api-reference.scope.iml.json"
+                }
+            },
+            "mergeSuggestedChanges": {
+                "label": "Merge Suggested Changes",
+                "description": "Merge a suggested change document into its main document.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/merge-suggested-changes/merge-suggested-changes.communication.iml.json",
+                    "staticParams": "modules/merge-suggested-changes/merge-suggested-changes.static-params.iml.json",
+                    "mappableParams": "modules/merge-suggested-changes/merge-suggested-changes.mappable-params.iml.json",
+                    "interface": "modules/merge-suggested-changes/merge-suggested-changes.interface.iml.json",
+                    "samples": "modules/merge-suggested-changes/merge-suggested-changes.samples.iml.json",
+                    "scope": "modules/merge-suggested-changes/merge-suggested-changes.scope.iml.json"
+                }
+            },
+            "organizationDisplayRules": {
+                "label": "Get Organization Display Rules",
+                "description": "Retrieve the conditional display rules configured for an organization.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/organization-display-rules/organization-display-rules.communication.iml.json",
+                    "staticParams": "modules/organization-display-rules/organization-display-rules.static-params.iml.json",
+                    "mappableParams": "modules/organization-display-rules/organization-display-rules.mappable-params.iml.json",
+                    "interface": "modules/organization-display-rules/organization-display-rules.interface.iml.json",
+                    "samples": "modules/organization-display-rules/organization-display-rules.samples.iml.json",
+                    "scope": "modules/organization-display-rules/organization-display-rules.scope.iml.json"
+                }
+            },
+            "organizationExport": {
+                "label": "Export Organization",
+                "description": "Export organization content as a zip file.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/organization-export/organization-export.communication.iml.json",
+                    "staticParams": "modules/organization-export/organization-export.static-params.iml.json",
+                    "mappableParams": "modules/organization-export/organization-export.mappable-params.iml.json",
+                    "interface": "modules/organization-export/organization-export.interface.iml.json",
+                    "samples": "modules/organization-export/organization-export.samples.iml.json",
+                    "scope": "modules/organization-export/organization-export.scope.iml.json"
+                }
+            },
+            "publishSpace": {
+                "label": "Publish a Space",
+                "description": "Publish the current DocSpace to preview or production.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/publish-space/publish-space.communication.iml.json",
+                    "staticParams": "modules/publish-space/publish-space.static-params.iml.json",
+                    "mappableParams": "modules/publish-space/publish-space.mappable-params.iml.json",
+                    "interface": "modules/publish-space/publish-space.interface.iml.json",
+                    "samples": "modules/publish-space/publish-space.samples.iml.json",
+                    "scope": "modules/publish-space/publish-space.scope.iml.json"
+                }
+            },
+            "searchDocuments": {
+                "label": "Search Documents",
+                "description": "Search for documents in Archbee.",
+                "moduleType": "search",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/search-documents/search-documents.communication.iml.json",
+                    "staticParams": "modules/search-documents/search-documents.static-params.iml.json",
+                    "mappableParams": "modules/search-documents/search-documents.mappable-params.iml.json",
+                    "interface": "modules/search-documents/search-documents.interface.iml.json",
+                    "samples": "modules/search-documents/search-documents.samples.iml.json",
+                    "scope": "modules/search-documents/search-documents.scope.iml.json"
+                }
+            },
+            "syncApiReference": {
+                "label": "Sync OpenAPI Document",
+                "description": "Upload/sync an OpenAPI specification file into Archbee as API reference docs.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/sync-api-reference/sync-api-reference.communication.iml.json",
+                    "staticParams": "modules/sync-api-reference/sync-api-reference.static-params.iml.json",
+                    "mappableParams": "modules/sync-api-reference/sync-api-reference.mappable-params.iml.json",
+                    "interface": "modules/sync-api-reference/sync-api-reference.interface.iml.json",
+                    "samples": "modules/sync-api-reference/sync-api-reference.samples.iml.json",
+                    "scope": "modules/sync-api-reference/sync-api-reference.scope.iml.json"
+                }
+            },
+            "updateDocument": {
+                "label": "Update a Document",
+                "description": "Update an existing document in Archbee.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/update-document/update-document.communication.iml.json",
+                    "staticParams": "modules/update-document/update-document.static-params.iml.json",
+                    "mappableParams": "modules/update-document/update-document.mappable-params.iml.json",
+                    "interface": "modules/update-document/update-document.interface.iml.json",
+                    "samples": "modules/update-document/update-document.samples.iml.json",
+                    "scope": "modules/update-document/update-document.scope.iml.json"
+                }
+            },
+            "updateDocumentTags": {
+                "label": "Update Tags in a Document",
+                "description": "Replace {{tag}} placeholders found in a document's content. Only tags you provide a value for are changed; fields left blank are not touched.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/update-document-tags/update-document-tags.communication.iml.json",
+                    "staticParams": "modules/update-document-tags/update-document-tags.static-params.iml.json",
+                    "mappableParams": "modules/update-document-tags/update-document-tags.mappable-params.iml.json",
+                    "interface": "modules/update-document-tags/update-document-tags.interface.iml.json",
+                    "samples": "modules/update-document-tags/update-document-tags.samples.iml.json",
+                    "scope": "modules/update-document-tags/update-document-tags.scope.iml.json"
+                }
+            },
+            "updateSpace": {
+                "label": "Update a Space",
+                "description": "Update the current DocSpace's settings in Archbee.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/update-space/update-space.communication.iml.json",
+                    "staticParams": "modules/update-space/update-space.static-params.iml.json",
+                    "mappableParams": "modules/update-space/update-space.mappable-params.iml.json",
+                    "interface": "modules/update-space/update-space.interface.iml.json",
+                    "samples": "modules/update-space/update-space.samples.iml.json",
+                    "scope": "modules/update-space/update-space.scope.iml.json"
+                }
+            },
+            "uploadFile": {
+                "label": "Upload a File ",
+                "description": "Upload a single file to Archbee and get back its hosted URL.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/upload-file/upload-file.communication.iml.json",
+                    "staticParams": "modules/upload-file/upload-file.static-params.iml.json",
+                    "mappableParams": "modules/upload-file/upload-file.mappable-params.iml.json",
+                    "interface": "modules/upload-file/upload-file.interface.iml.json",
+                    "samples": "modules/upload-file/upload-file.samples.iml.json",
+                    "scope": "modules/upload-file/upload-file.scope.iml.json"
+                }
+            },
+            "watchEvents": {
+                "label": "Watch Events",
+                "description": "Triggers instantly when a subscribed event occurs in Archbee. Copy this trigger's webhook URL into Archbee's webhook settings and choose which events to send there.",
+                "moduleType": "instant_trigger",
+                "connection": null,
+                "altConnection": null,
+                "webhook": "webhook1",
+                "codeFiles": {
+                    "communication": "modules/watch-events/watch-events.communication.iml.json",
+                    "staticParams": "modules/watch-events/watch-events.static-params.iml.json",
+                    "mappableParams": "modules/watch-events/watch-events.mappable-params.iml.json",
+                    "interface": "modules/watch-events/watch-events.interface.iml.json",
+                    "samples": "modules/watch-events/watch-events.samples.iml.json"
+                }
+            }
+        },
         "function": {},
-        "rpc": {},
-        "webhook": {},
+        "rpc": {
+            "documentTagFields": {
+                "label": "Document Tag Fields",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "rpcs/document-tag-fields/document-tag-fields.communication.iml.json",
+                    "params": "rpcs/document-tag-fields/document-tag-fields.params.iml.json"
+                }
+            }
+        },
+        "webhook": {
+            "webhook1": {
+                "label": "Archbee Webhook",
+                "webhookType": "web",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "webhooks/webhook1/webhook1.communication.iml.json",
+                    "params": "webhooks/webhook1/webhook1.params.iml.json",
+                    "attach": "webhooks/webhook1/webhook1.attach.iml.json",
+                    "detach": "webhooks/webhook1/webhook1.detach.iml.json",
+                    "update": "webhooks/webhook1/webhook1.update.iml.json",
+                    "requiredScope": "webhooks/webhook1/webhook1.required-scope.iml.json"
+                }
+            }
+        },
         "endpoint": {}
     },
     "origins": [
@@ -21,14 +407,118 @@
             "appId": "archbee-6elp7v",
             "appVersion": 1,
             "idMapping": {
-                "connection": [],
-                "module": [],
+                "connection": [
+                    {
+                        "local": "connection1",
+                        "remote": "archbee-6elp7v"
+                    }
+                ],
+                "module": [
+                    {
+                        "local": "cloneSpace",
+                        "remote": "cloneSpace"
+                    },
+                    {
+                        "local": "createDocument",
+                        "remote": "createDocument"
+                    },
+                    {
+                        "local": "createSpace",
+                        "remote": "createSpace"
+                    },
+                    {
+                        "local": "createSpaceGroup",
+                        "remote": "createSpaceGroup"
+                    },
+                    {
+                        "local": "deleteDocument",
+                        "remote": "deleteDocument"
+                    },
+                    {
+                        "local": "deleteSpace",
+                        "remote": "deleteSpace"
+                    },
+                    {
+                        "local": "deleteSpaceGroup",
+                        "remote": "deleteSpaceGroup"
+                    },
+                    {
+                        "local": "discardSuggestedChanges",
+                        "remote": "discardSuggestedChanges"
+                    },
+                    {
+                        "local": "getDocument",
+                        "remote": "getDocument"
+                    },
+                    {
+                        "local": "importContent",
+                        "remote": "importContent"
+                    },
+                    {
+                        "local": "infoApiReference",
+                        "remote": "infoApiReference"
+                    },
+                    {
+                        "local": "mergeSuggestedChanges",
+                        "remote": "mergeSuggestedChanges"
+                    },
+                    {
+                        "local": "organizationDisplayRules",
+                        "remote": "organizationDisplayRules"
+                    },
+                    {
+                        "local": "organizationExport",
+                        "remote": "organizationExport"
+                    },
+                    {
+                        "local": "publishSpace",
+                        "remote": "publishSpace"
+                    },
+                    {
+                        "local": "searchDocuments",
+                        "remote": "searchDocuments"
+                    },
+                    {
+                        "local": "syncApiReference",
+                        "remote": "syncApiReference"
+                    },
+                    {
+                        "local": "updateDocument",
+                        "remote": "updateDocument"
+                    },
+                    {
+                        "local": "updateDocumentTags",
+                        "remote": "updateDocumentTags"
+                    },
+                    {
+                        "local": "updateSpace",
+                        "remote": "updateSpace"
+                    },
+                    {
+                        "local": "uploadFile",
+                        "remote": "uploadFile"
+                    },
+                    {
+                        "local": "watchEvents",
+                        "remote": "watchEvents"
+                    }
+                ],
                 "function": [],
-                "rpc": [],
-                "webhook": [],
+                "rpc": [
+                    {
+                        "local": "documentTagFields",
+                        "remote": "documentTagFields"
+                    }
+                ],
+                "webhook": [
+                    {
+                        "local": "webhook1",
+                        "remote": "archbee-6elp7v"
+                    }
+                ],
                 "endpoint": []
             },
-            "apikeyFile": "../.secrets/apikey"
+            "apikeyFile": "../../.secrets/apikey2"
         }
     ]
 }
