@@ -1,6 +1,0 @@
-{
-  "label": "Watch Events",
-  "typeId": 10,
-  "description": "Triggers instantly when a subscribed event occurs in Archbee. Copy this trigger's webhook URL into Archbee's webhook settings and choose which events to send there.",
-  "webhook": "archbeeWebhook"
-}

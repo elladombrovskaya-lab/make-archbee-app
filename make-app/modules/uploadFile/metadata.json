@@ -1,6 +1,0 @@
-{
-  "label": "Upload a File",
-  "typeId": 4,
-  "description": "Upload a single file to Archbee and get back its hosted URL.",
-  "connection": "archbee-shu4-czcwns"
-}

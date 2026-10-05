@@ -1,6 +1,0 @@
-{
-  "label": "Export Organization",
-  "typeId": 4,
-  "description": "Export organization content as a zip file.",
-  "connection": "archbee-shu4-czcwns"
-}

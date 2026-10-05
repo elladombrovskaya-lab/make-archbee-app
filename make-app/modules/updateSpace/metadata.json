@@ -1,6 +1,0 @@
-{
-  "label": "Update a Space",
-  "typeId": 4,
-  "description": "Update the current DocSpace's settings in Archbee.",
-  "connection": "archbee-shu4-czcwns"
-}

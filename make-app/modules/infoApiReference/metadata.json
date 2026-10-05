@@ -1,6 +1,0 @@
-{
-  "label": "Get OpenAPI Document Info",
-  "typeId": 4,
-  "description": "Get info about a previously imported OpenAPI document tree.",
-  "connection": "archbee-shu4-czcwns"
-}

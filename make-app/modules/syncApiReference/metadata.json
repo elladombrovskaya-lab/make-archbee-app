@@ -1,6 +1,0 @@
-{
-  "label": "Sync OpenAPI Document",
-  "typeId": 4,
-  "description": "Upload/sync an OpenAPI specification file into Archbee as API reference docs.",
-  "connection": "archbee-shu4-czcwns"
-}
