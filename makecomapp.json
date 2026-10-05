@@ -519,6 +519,125 @@
                 "endpoint": []
             },
             "apikeyFile": "../../.secrets/apikey2"
+        },
+        {
+            "label": "Archbee US2",
+            "baseUrl": "https://us2.make.com/api",
+            "appId": "archbee-1w4ygi",
+            "appVersion": 1,
+            "idMapping": {
+                "connection": [
+                    {
+                        "local": "connection1",
+                        "remote": "archbee-1w4ygi"
+                    }
+                ],
+                "module": [
+                    {
+                        "local": "cloneSpace",
+                        "remote": "cloneSpace"
+                    },
+                    {
+                        "local": "createDocument",
+                        "remote": "createDocument"
+                    },
+                    {
+                        "local": "createSpace",
+                        "remote": "createSpace"
+                    },
+                    {
+                        "local": "createSpaceGroup",
+                        "remote": "createSpaceGroup"
+                    },
+                    {
+                        "local": "deleteDocument",
+                        "remote": "deleteDocument"
+                    },
+                    {
+                        "local": "deleteSpace",
+                        "remote": "deleteSpace"
+                    },
+                    {
+                        "local": "deleteSpaceGroup",
+                        "remote": "deleteSpaceGroup"
+                    },
+                    {
+                        "local": "discardSuggestedChanges",
+                        "remote": "discardSuggestedChanges"
+                    },
+                    {
+                        "local": "getDocument",
+                        "remote": "getDocument"
+                    },
+                    {
+                        "local": "importContent",
+                        "remote": "importContent"
+                    },
+                    {
+                        "local": "infoApiReference",
+                        "remote": "infoApiReference"
+                    },
+                    {
+                        "local": "mergeSuggestedChanges",
+                        "remote": "mergeSuggestedChanges"
+                    },
+                    {
+                        "local": "organizationDisplayRules",
+                        "remote": "organizationDisplayRules"
+                    },
+                    {
+                        "local": "organizationExport",
+                        "remote": "organizationExport"
+                    },
+                    {
+                        "local": "publishSpace",
+                        "remote": "publishSpace"
+                    },
+                    {
+                        "local": "searchDocuments",
+                        "remote": "searchDocuments"
+                    },
+                    {
+                        "local": "syncApiReference",
+                        "remote": "syncApiReference"
+                    },
+                    {
+                        "local": "updateDocument",
+                        "remote": "updateDocument"
+                    },
+                    {
+                        "local": "updateDocumentTags",
+                        "remote": "updateDocumentTags"
+                    },
+                    {
+                        "local": "updateSpace",
+                        "remote": "updateSpace"
+                    },
+                    {
+                        "local": "uploadFile",
+                        "remote": "uploadFile"
+                    },
+                    {
+                        "local": "watchEvents",
+                        "remote": "watchEvents"
+                    }
+                ],
+                "function": [],
+                "rpc": [
+                    {
+                        "local": "documentTagFields",
+                        "remote": "documentTagFields"
+                    }
+                ],
+                "webhook": [
+                    {
+                        "local": "webhook1",
+                        "remote": "archbee-1w4ygi"
+                    }
+                ],
+                "endpoint": []
+            },
+            "apikeyFile": "../../.secrets/apikey-us2"
         }
     ]
 }
